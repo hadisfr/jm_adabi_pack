@@ -1,0 +1,108 @@
+/*
+	jm_adabi Joomla 3.5+ template
+
+	© Hadi Safari 2016
+	hadisafari76[at]gmail.com
+*/
+@font-face{
+	font-family: iransans;
+	src:
+		url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb.woff") format("woff"),
+		url("../fonts/IRANSansWeb.ttf") format("truetype");
+}
+@font-face{
+	font-family: iransans;
+	font-weight: bold;
+	src:
+		url("../fonts/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb_Bold.woff") format("woff"),
+		url("../fonts/IRANSansWeb_Bold.ttf") format("truetype");
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+ul, ol, dl{
+	margin-right: 50px;
+}
+.clearfix{
+	clear: both;
+}
+.withoutpad{
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	background: #242219;
+	direction: rtl;
+	font-family: iransans, serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	padding-right: 26px;
+	padding-left: 26px;
+}
+p{
+	text-indent: 16px;
+	text-align: justify;
+}
+a:hover{
+	color: #a89e5a;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+.muted{
+	color: #999;
+}
+.hide{
+	display: none;
+}
+.error{
+	margin: auto;
+}
+#outline {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#errorboxoutline {
+	border: 1px solid #000000;
+	background: #f9f9f9;
+	border-radius: 50px;
+	border-bottom-right-radius: 0;
+	overflow: hidden;
+}
+#errorboxheader {
+	margin: 0px;
+	padding: 0px;
+	background: #474431;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	padding: 16px;
+}
+#errorboxbody {
+	padding: 10px;
+}
+#techinfo {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	color: #CCCCCC;
+	background: #fff;
+}
+#techinfo p {
+	color: #CCCCCC;
+}

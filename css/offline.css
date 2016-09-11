@@ -1,0 +1,209 @@
+/*
+	jm_adabi Joomla 3.5+ template
+
+	© Hadi Safari 2016
+	hadisafari76[at]gmail.com
+*/
+@font-face{
+	font-family: yekan;
+	src:
+		url("../fonts/BYekan.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BYekan.woff") format("woff"),
+		url("../fonts/BYekan.ttf") format("truetype");
+}
+@font-face{
+	font-family: iransans;
+	src:
+		url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb.woff") format("woff"),
+		url("../fonts/IRANSansWeb.ttf") format("truetype");
+}
+@font-face{
+	font-family: iransans;
+	font-weight: bold;
+	src:
+		url("../fonts/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb_Bold.woff") format("woff"),
+		url("../fonts/IRANSansWeb_Bold.ttf") format("truetype");
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+ul, ol, dl{
+	margin-right: 50px;
+}
+.clearfix{
+	clear: both;
+}
+.withoutpad{
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	background: #242219;
+	/*direction: rtl;*/
+	font-family: yekan, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: iransans, serif;
+}
+
+body {
+	text-align: center;
+}
+p{
+	text-align: initial;
+}
+img{
+	border: 0 none;
+	margin-left: auto;
+	margin-right: auto;
+}
+#frame {
+	margin: 20px auto;
+	width: 90%;
+	max-width: 400px;
+	padding: 20px;
+}
+#frame img {
+	max-width: 100%;
+	height: auto;
+}
+#frame form {
+	text-align: left;
+}
+.outline {
+	border: 1px solid #ccc;
+	background: #ddd;
+	padding: 2px;
+	border-radius: 26px;
+	border-bottom-right-radius: 0;
+}
+form {
+	margin: auto;
+}
+form br {
+	display: none;
+}
+form p {
+	margin: 0;
+	padding: 0.5em 0 0.5em 0;
+}
+form fieldset {
+	border: 0 none;
+	margin: 0em;
+	padding: 0.2em;
+}
+label {
+	display: block;
+	margin: 5px 0 2px 0;
+}
+input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px 10px;
+}
+input.button {
+	width: auto;
+	cursor: pointer;
+}
+fieldset.input p {
+	clear: left;
+}
+input, textarea, button{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	font-family: yekan, sans-serif;
+	font-size: 0.8em;
+	font-weight: lighter;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	background: #fcfcfc;
+	padding: 5px;
+	margin: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"], textarea{
+	color: #aba98c;
+}
+@media screen and (max-width: 992px){
+	input[type="text"], input[type="email"], input[type="password"], textarea{
+		color: #474431;
+	}
+}
+input[type="email"]{
+	direction: ltr;
+	font-family: Tahoma, sans-serif;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus{
+	border: 1px solid #e6d294;
+	box-shadow: 0 0 5px 0 #e6d294 inset;
+	background: #f9f9f9;
+}
+textarea{
+	resize: none;
+	overflow-y: auto;
+	height: 150px;
+}
+input[type="checkbox"]{}
+input[type="button"], input[type="reset"], input[type="submit"], button{
+	cursor: pointer;
+	background: #fcfcfc;
+	min-width: 100px;
+	margin-left: 5px;
+	color: #999;
+}
+input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:hover{
+	background: #f9f9f9;
+	color: #333;
+	border: 1px solid #e6d294;
+}
+label{
+	margin: 3px 16px;
+}
+#frmlogin {
+	margin: 0 10px 0 10px;
+}
+#frmlogin fieldset.button {
+	text-align: right;
+}
+#system-message {
+	margin: 0 auto;
+	padding: 20px 0 0;
+	width: 90%;
+	max-width: 445px;
+}
+.alert {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding: 8px 25px 8px 14px;
+	text-align: left;
+}
+.alert h4 {
+	color: red;
+	margin: 5px 0;
+}
+.alert p {
+	padding: 0px;
+	margin: 0px;
+}
+.alert .close {
+	float: right;
+	font-size: 24px;
+	line-height: 18px;
+	position: relative;
+	right: -20px;
+	top: -2px;
+	cursor: pointer;
+}
+.login {
+	margin-top: 5px;
+}

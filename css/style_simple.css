@@ -1,0 +1,116 @@
+/*
+	jm_adabi Joomla 3.5+ template
+
+	© Hadi Safari 2016
+	hadisafari76[at]gmail.com
+*/
+@font-face{
+	font-family: yekan;
+	src:
+		url("../fonts/BYekan.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BYekan.woff") format("woff"),
+		url("../fonts/BYekan.ttf") format("truetype");
+}
+@font-face{
+	font-family: iransans;
+	src:
+		url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb.woff") format("woff"),
+		url("../fonts/IRANSansWeb.ttf") format("truetype");
+}
+@font-face{
+	font-family: iransans;
+	font-weight: bold;
+	src:
+		url("../fonts/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/IRANSansWeb_Bold.woff") format("woff"),
+		url("../fonts/IRANSansWeb_Bold.ttf") format("truetype");
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+ul, ol, dl{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.clearfix{
+	clear: both;
+}
+.withoutpad{
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	direction: rtl;
+	font-family: yekan, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	padding-right: 26px;
+	padding-left: 26px;
+}
+p{
+	text-indent: 16px;
+	text-align: justify;
+}
+a:hover{
+	color: #a89e5a;
+}
+h1, h2, h3, h4, h5, h6, #footerholder{
+	font-family: iransans, serif;
+	margin: 0;
+}
+.muted{
+	color: #999;
+}
+.hide{
+	display: none;
+}
+.item-image img, .item-image{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.article-info{
+	font-size: 0.5em;
+	padding-right: 26px;
+	padding-left: 26px;
+	font-style: italic;
+	float: left;
+}
+.breadcrumb{
+	padding: 16px;
+}
+.breadcrumb li{
+	display: inline-block;
+}
+#pop-print a{
+	padding: 2px 16px;
+	margin: 26px;
+	background: #242219;
+	color: #c4c2a1;
+	border-radius: 5px;
+}
+#pop-print a:hover{
+	background: #474431;
+}
+@media print{
+	#pop-print{
+		display: none;
+	}
+	a::after{
+		content: " (" attr(href) ")";
+		font-size: 0.9em;
+		font-weight: lighter;
+	}
+	.breadcrumb a::after{
+		content: "";
+	}
+}

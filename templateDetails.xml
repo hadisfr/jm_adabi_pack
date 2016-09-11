@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/3.5/template-install.dtd">
+<extension version="3.5" type="template" client="site">
+	<name>jm_adabi</name>
+	<creationDate>8/26/2016</creationDate>
+	<author>Hadi Safari</author>
+	<authorEmail>hadisafari76@gmail.com</authorEmail>
+	<description>jm_adabi Joomla! 3.5+ template.&lt;br&gt;&lt;br&gt;Designed by &lt;span title="hadisafari76[at]gmail.com"&gt;Hadi Safari.&lt;/span&gt;</description>
+	<files>
+		<filename>templateDetails.xml</filename>
+		<filename>index.php</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>img</folder>
+	</files>
+	<positions>
+		<position>position-1</position>
+		<position>slider</position>
+		<position>position-2</position>
+		<position>about</position>
+		<position>contact</position>
+		<position>user-0</position>
+		<position>user-1</position>
+		<position>social</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<config><fields name="params"><fieldset name="Basic">
+		<field name="logoimg" type="media" default="templates/jm_adabi/img/logo.png" label="logo image" />
+		<field name="favicon" type="media" default="" label="favicon" />
+	</fieldset></fields></config>
+</extension>
